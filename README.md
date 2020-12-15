@@ -46,7 +46,7 @@ PS C:\gootkit-registry-scanner> Get-Help .\gootkit-registry-scanner.ps1
 NAME
     C:\gootkit-registry-scanner\gootkit-registry-scanner.ps1
 
-ÜBERSICHT
+SYNOPSIS
     gootkit-registry-scanner v1.0 - Gootkit detection and removal tool
     2020 by Constantin Tillmann (https://github.com/ConstantinTi)
     This script helps to detect the malware Gootkit and allows you to remove the infection from the registry.
@@ -56,18 +56,18 @@ SYNTAX
     C:\gootkit-registry-scanner\gootkit-registry-scanner.ps1 [[-mode] <String>] [[-key] <String>] [<CommonParameters>]
 
 
-BESCHREIBUNG
+DESCRIPTION
     This script should help you to detect the malware Gootkit.
     Please bear in mind, that the key names or even the location may change as this virus is evolving.
     This particular scanner was able to detect various attacks of Gootkit in December 2020.
     However, GootKit is known to be changed.
 
 
-VERWANDTE LINKS
+LINKS
     https://github.com/ConstantinTi/gootkit-registry-scanner
     https://blog.malwarebytes.com/threat-analysis/2020/11/german-users-targeted-with-gootkit-banker-or-revil-ransomware/
 
-HINWEISE
+NOTES
     Zum Aufrufen der Beispiele geben Sie Folgendes ein: "get-help C:\gootkit-registry-scanner\gootkit-registry-scanner.ps1 -examples".
     Weitere Informationen erhalten Sie mit folgendem Befehl: "get-help C:\gootkit-registry-scanner\gootkit-registry-scanner.ps1 -detailed".
     Technische Informationen erhalten Sie mit folgendem Befehl: "get-help C:\gootkit-registry-scanner\gootkit-registry-scanner.ps1 -full".
